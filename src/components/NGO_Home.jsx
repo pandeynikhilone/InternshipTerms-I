@@ -1,30 +1,26 @@
-import React from "react";
+import Button from './Button.jsx';
+import Navigation from './nav/Navigation.jsx'
+
 function NGO_Home() {
   return (
-    <div className="bg-[#234540] min-h-screen w-full pt-5">
-      <header>
-        <nav className="bg-[#395853] w-full max-w-[1140px] mx-auto rounded-3xl px-4 py-4 flex flex-col md:flex-row items-center justify-between">
-          <img
-            src="/Logo-1.svg"
-            alt="NGO Logo"
-            className="h-16 w-auto mb-4 md:mb-0"
-          />
-          <div className="text-white text-lg flex flex-col gap-2 md:flex-row md:gap-6">
-            {["Home", "About", "Services", "Projects", "Contact"].map(
-              (label) => (
-                <a
-                  key={label}
-                  href="#"
-                  className="hover:text-[#fdb235] transition-colors duration-200"
-                >
-                  {label}
-                </a>
-              )
-            )}
-          </div>
-        </nav>
-      </header>
+    <div className="flex gap-[85px] flex-col">
+      <Navigation />
+      <main className="flex flex-col mx-auto justify-center w-[840px] Lato gap-4">
+        <div className="text-[53px] mx-auto text-white font-bold">
+          Let's make the world a better place by
+          <span className="Comic text-[#fdb235] whitespace-nowrap">
+            {" "}
+            creating a brighter future
+          </span>
+        </div>
+        <div className="text-[#92a5a4] text-center text-[20px]">
+          Empowering individuals and communities to collaborate, innovate, &
+          solve global challenges, fostering a brighter future for all.
+        </div>
+      <Button/>
+      </main>
     </div>
   );
 }
-export default NGO_Home;
+
+export default NGO_Home
