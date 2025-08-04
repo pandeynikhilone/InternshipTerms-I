@@ -11,6 +11,7 @@ function Navigation() {
     setMenuOpen(false);
   };
 
+  const label = ["Programs", "Volunteer", "About"];
   return (
     <div className="w-full pt-5 Lato">
       <header>
@@ -23,17 +24,20 @@ function Navigation() {
 
           {/* Desktop Menu */}
           <div className="hidden md:flex text-white text-lg gap-6">
-            {["Home", "About", "Services", "Projects", "Contact"].map(
-              (label) => (
-                <a
-                  key={label}
-                  href="#"
-                  className="hover:text-[#fdb235] transition-colors duration-200"
-                >
-                  {label}
-                </a>
-              )
-            )}
+            {
+              <nav className="flex gap-6">
+                
+                {label.map((label) => (
+                  <a
+                    key={label}
+                    href={`#${label.toLowerCase()}`} // dynamic href like #home
+                    className="hover:text-[#fdb235] transition-colors duration-200"
+                  >
+                    {label}
+                  </a>
+                ))}
+              </nav>
+            }
           </div>
 
           {/* Mobile Toggle Button */}
@@ -80,18 +84,19 @@ function Navigation() {
         {/* Mobile Menu */}
         {menuOpen && (
           <div className="md:hidden text-center flex flex-col gap-4 bg-[#395853] text-white text-lg p-4 rounded-b-3xl">
-            {["Home", "About", "Services", "Projects", "Contact"].map(
-              (label) => (
-                <a
-                  key={label}
-                  href="#"
-                  onClick={closeMenu}
-                  className="hover:text-[#fdb235] transition-colors duration-200"
-                >
-                  {label}
-                </a>
-              )
-            )}
+            {
+              <nav className="flex gap-6">
+                {label.map((label) => (
+                  <a
+                    key={label}
+                    href={`#${label.toLowerCase()}`} // dynamic href like #home
+                    className="hover:text-[#fdb235] transition-colors duration-200"
+                  >
+                    {label}
+                  </a>
+                ))}
+              </nav>
+            }
           </div>
         )}
       </header>

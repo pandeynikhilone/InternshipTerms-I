@@ -24,7 +24,7 @@ const CardSection = () => {
   }));
 
   return (
-    <div className="flex flex-wrap justify-center gap-4 mt-6">
+    <div id="home" className="flex flex-wrap justify-center gap-4 mt-6">
       {cards.map((card, i) => (
         <div
           key={i}
@@ -71,7 +71,7 @@ function NGO_Home() {
         </section>
       </div>
 
-      <section>
+      <section id="programs">
         <div className="text-[32px] lg:text-[38px] mx-auto font-bold text-center mt-4">
           Our upcoming
           <span className="Comic text-[#fdb235]"> Programs</span>
@@ -79,8 +79,8 @@ function NGO_Home() {
 
         <CardSection />
       </section>
-      <VolunteerForm/>
-      <AboutUs/>
+      <VolunteerForm />
+      <AboutUs />
     </>
   );
 }
