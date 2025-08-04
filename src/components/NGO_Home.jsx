@@ -2,6 +2,7 @@
 import AboutUs from "./AboutUs.jsx";
 import Button from "./Button.jsx";
 import Navigation from "./nav/Navigation.jsx";
+import VolunteerForm from "./VolunteerForm.jsx";
 
 const CardSection = () => {
   const data = [
@@ -78,6 +79,7 @@ function NGO_Home() {
 
         <CardSection />
       </section>
+      <VolunteerForm/>
       <AboutUs/>
     </>
   );
