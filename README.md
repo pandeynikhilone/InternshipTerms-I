@@ -12,13 +12,10 @@ A fully responsive, modern website built for an NGO to showcase its mission, eve
 - [Features](#features)
 - [Directory Structure](#directory-structure)
 - [Getting Started](#getting-started)
-- [Deployment](#deployment)
-- [Screenshots](#screenshots)
 - [Contact](#contact)
-
 ---
 
-## 📖 Project Overview
+## Project Overview
 
 This project was developed as part of an internship program with the goal of contributing to an NGO's online presence. The website includes sections for:
 
@@ -30,12 +27,10 @@ This project was developed as part of an internship program with the goal of con
 
 ---
 
-## 🌍 Live Demo
-
 👉 **[Visit the Live Site](https://internshipterms-i-1.onrender.com)**  
 ---
 
-## ⚙️ Tech Stack
+## Tech Stack
 
 - **React.js** – JavaScript library for building UI
 - **Tailwind CSS** – Utility-first CSS framework
@@ -45,7 +40,7 @@ This project was developed as part of an internship program with the goal of con
 
 ---
 
-## ✨ Features
+## Features
 
 - ✅ Mobile-first responsive layout
 - ✅ Modular and reusable components
@@ -56,7 +51,7 @@ This project was developed as part of an internship program with the goal of con
 
 ---
 
-## 📁 Directory Structure
+## Directory Structure
 
 ```bash
 InternshipTerms-I/
@@ -85,10 +80,9 @@ InternshipTerms-I/
 └── README.md
 ```
 
-
 ---
 
-## ⚡ Getting Started
+## Getting Started
 
 To run this project locally:
 
@@ -104,8 +98,9 @@ npm install
 
 # Start the development server
 npm run dev
+```
 
-## 👥 Contact
+## Contact
 
 If you're a recruiter or representative of an NGO interested in this project:
 
