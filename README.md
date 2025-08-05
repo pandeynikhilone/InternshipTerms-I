@@ -32,9 +32,7 @@ This project was developed as part of an internship program with the goal of con
 
 ## 🌍 Live Demo
 
-👉 **[Visit the Live Site](https://your-deployment-link.com)**  
-*(Replace this with your actual live deployment URL)*
-
+👉 **[Visit the Live Site](https://internshipterms-i-1.onrender.com)**  
 ---
 
 ## ⚙️ Tech Stack
@@ -111,6 +109,4 @@ npm run dev
 
 If you're a recruiter or representative of an NGO interested in this project:
 
-- 📧 Email: nikhil@example.com  
-- 💼 LinkedIn: [linkedin.com/in/your-profile](https://linkedin.com/in/your-profile)  
-- 🌐 Portfolio: [your-portfolio-link.com](https://your-portfolio-link.com)
+- 📧 Email: pandeynikhilone@gmail.com  
